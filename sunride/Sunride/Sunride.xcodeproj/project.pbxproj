@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1185E68215840F16001FC0F5 /* SRMileageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185E68115840F16001FC0F5 /* SRMileageController.m */; };
+		1185E686158410CE001FC0F5 /* driving_moderate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E684158410CE001FC0F5 /* driving_moderate.png */; };
+		1185E687158410CE001FC0F5 /* driving_moderate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E685158410CE001FC0F5 /* driving_moderate@2x.png */; };
+		1185E68A158410D5001FC0F5 /* driving_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E688158410D5001FC0F5 /* driving_light.png */; };
+		1185E68B158410D5001FC0F5 /* driving_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E689158410D5001FC0F5 /* driving_light@2x.png */; };
+		1185E68E158410DC001FC0F5 /* driving_heavy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E68C158410DC001FC0F5 /* driving_heavy.png */; };
+		1185E68F158410DC001FC0F5 /* driving_heavy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E68D158410DC001FC0F5 /* driving_heavy@2x.png */; };
+		1185E69215841BDC001FC0F5 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69015841BDC001FC0F5 /* Back.png */; };
+		1185E69315841BDC001FC0F5 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69115841BDC001FC0F5 /* Back@2x.png */; };
+		1185E69615842A1D001FC0F5 /* SRGasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185E69515842A1D001FC0F5 /* SRGasViewController.m */; };
+		1185E69915842B76001FC0F5 /* Gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69715842B76001FC0F5 /* Gas.png */; };
+		1185E69A15842B76001FC0F5 /* Gas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69815842B76001FC0F5 /* Gas@2x.png */; };
+		1185E6A315844D3B001FC0F5 /* Ford_Focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69B15844D3B001FC0F5 /* Ford_Focus.png */; };
+		1185E6A415844D3B001FC0F5 /* Nissan_Leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69C15844D3B001FC0F5 /* Nissan_Leaf.png */; };
+		1185E6A515844D3B001FC0F5 /* Chevy_Volt.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69D15844D3B001FC0F5 /* Chevy_Volt.png */; };
+		1185E6A615844D3B001FC0F5 /* Tesla_Model_S.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69E15844D3B001FC0F5 /* Tesla_Model_S.png */; };
+		1185E6A715844D3B001FC0F5 /* Tesla_Roadster.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E69F15844D3B001FC0F5 /* Tesla_Roadster.png */; };
+		1185E6A815844D3B001FC0F5 /* Wheego_LiFe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E6A015844D3B001FC0F5 /* Wheego_LiFe.png */; };
+		1185E6A915844D3B001FC0F5 /* Mitsubishi_i.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E6A115844D3B001FC0F5 /* Mitsubishi_i.png */; };
+		1185E6AA15844D3B001FC0F5 /* Toyota_RAV4_EV.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E6A215844D3B001FC0F5 /* Toyota_RAV4_EV.png */; };
+		1185E6FD158459DD001FC0F5 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */; };
+		1185E6FF15845A6F001FC0F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */; };
+		11FE2B1F1583D125004EDF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B1E1583D125004EDF77 /* UIKit.framework */; };
+		11FE2B211583D125004EDF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B201583D125004EDF77 /* Foundation.framework */; };
+		11FE2B231583D125004EDF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B221583D125004EDF77 /* CoreGraphics.framework */; };
+		11FE2B291583D125004EDF77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B271583D125004EDF77 /* InfoPlist.strings */; };
+		11FE2B2B1583D125004EDF77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE2B2A1583D125004EDF77 /* main.m */; };
+		11FE2B2F1583D125004EDF77 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE2B2E1583D125004EDF77 /* SRAppDelegate.m */; };
+		11FE2B321583D125004EDF77 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B301583D125004EDF77 /* MainStoryboard.storyboard */; };
+		11FE2B351583D125004EDF77 /* SRSplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE2B341583D125004EDF77 /* SRSplashController.m */; };
+		11FE2B4C1583D58D004EDF77 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B4A1583D58D004EDF77 /* Logo.png */; };
+		11FE2B4D1583D58D004EDF77 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B4B1583D58D004EDF77 /* Logo@2x.png */; };
+		11FE2B501583DCF1004EDF77 /* SideImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B4E1583DCF1004EDF77 /* SideImage.png */; };
+		11FE2B511583DCF1004EDF77 /* SideImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11FE2B4F1583DCF1004EDF77 /* SideImage@2x.png */; };
+		11FE2B531583E4FC004EDF77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B521583E4FC004EDF77 /* MapKit.framework */; };
+		11FE2B551583E503004EDF77 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B541583E503004EDF77 /* CoreLocation.framework */; };
+		11FE2B581583E6AE004EDF77 /* SRAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE2B571583E6AE004EDF77 /* SRAddressViewController.m */; };
+		11FE2B5A1583F209004EDF77 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B591583F209004EDF77 /* AddressBook.framework */; };
+		11FE2B5C1583F2E2004EDF77 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B5B1583F2E2004EDF77 /* AddressBookUI.framework */; };
+		11FE2B5F15840841004EDF77 /* SRCarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FE2B5E15840841004EDF77 /* SRCarsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1185E68015840F16001FC0F5 /* SRMileageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRMileageController.h; sourceTree = "<group>"; };
+		1185E68115840F16001FC0F5 /* SRMileageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRMileageController.m; sourceTree = "<group>"; };
+		1185E684158410CE001FC0F5 /* driving_moderate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driving_moderate.png; sourceTree = "<group>"; };
+		1185E685158410CE001FC0F5 /* driving_moderate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "driving_moderate@2x.png"; sourceTree = "<group>"; };
+		1185E688158410D5001FC0F5 /* driving_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driving_light.png; sourceTree = "<group>"; };
+		1185E689158410D5001FC0F5 /* driving_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "driving_light@2x.png"; sourceTree = "<group>"; };
+		1185E68C158410DC001FC0F5 /* driving_heavy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = driving_heavy.png; sourceTree = "<group>"; };
+		1185E68D158410DC001FC0F5 /* driving_heavy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "driving_heavy@2x.png"; sourceTree = "<group>"; };
+		1185E69015841BDC001FC0F5 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = ../../Resources/Back/Back.png; sourceTree = "<group>"; };
+		1185E69115841BDC001FC0F5 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Back@2x.png"; path = "../../Resources/Back/Back@2x.png"; sourceTree = "<group>"; };
+		1185E69415842A1D001FC0F5 /* SRGasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRGasViewController.h; sourceTree = "<group>"; };
+		1185E69515842A1D001FC0F5 /* SRGasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRGasViewController.m; sourceTree = "<group>"; };
+		1185E69715842B76001FC0F5 /* Gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gas.png; path = ../../Resources/Gas/Gas.png; sourceTree = "<group>"; };
+		1185E69815842B76001FC0F5 /* Gas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gas@2x.png"; path = "../../Resources/Gas/Gas@2x.png"; sourceTree = "<group>"; };
+		1185E69B15844D3B001FC0F5 /* Ford_Focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ford_Focus.png; sourceTree = "<group>"; };
+		1185E69C15844D3B001FC0F5 /* Nissan_Leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nissan_Leaf.png; sourceTree = "<group>"; };
+		1185E69D15844D3B001FC0F5 /* Chevy_Volt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chevy_Volt.png; sourceTree = "<group>"; };
+		1185E69E15844D3B001FC0F5 /* Tesla_Model_S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tesla_Model_S.png; sourceTree = "<group>"; };
+		1185E69F15844D3B001FC0F5 /* Tesla_Roadster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tesla_Roadster.png; sourceTree = "<group>"; };
+		1185E6A015844D3B001FC0F5 /* Wheego_LiFe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wheego_LiFe.png; sourceTree = "<group>"; };
+		1185E6A115844D3B001FC0F5 /* Mitsubishi_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mitsubishi_i.png; sourceTree = "<group>"; };
+		1185E6A215844D3B001FC0F5 /* Toyota_RAV4_EV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toyota_RAV4_EV.png; sourceTree = "<group>"; };
+		1185E6AD1584596F001FC0F5 /* _CPTConstraintsFixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTConstraintsFixed.h; sourceTree = "<group>"; };
+		1185E6AE1584596F001FC0F5 /* _CPTConstraintsRelative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTConstraintsRelative.h; sourceTree = "<group>"; };
+		1185E6AF1584596F001FC0F5 /* _CPTDarkGradientTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTDarkGradientTheme.h; sourceTree = "<group>"; };
+		1185E6B01584596F001FC0F5 /* _CPTFillColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTFillColor.h; sourceTree = "<group>"; };
+		1185E6B11584596F001FC0F5 /* _CPTFillGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTFillGradient.h; sourceTree = "<group>"; };
+		1185E6B21584596F001FC0F5 /* _CPTFillImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTFillImage.h; sourceTree = "<group>"; };
+		1185E6B31584596F001FC0F5 /* _CPTPlainBlackTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTPlainBlackTheme.h; sourceTree = "<group>"; };
+		1185E6B41584596F001FC0F5 /* _CPTPlainWhiteTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTPlainWhiteTheme.h; sourceTree = "<group>"; };
+		1185E6B51584596F001FC0F5 /* _CPTSlateTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTSlateTheme.h; sourceTree = "<group>"; };
+		1185E6B61584596F001FC0F5 /* _CPTStocksTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTStocksTheme.h; sourceTree = "<group>"; };
+		1185E6B71584596F001FC0F5 /* _CPTXYTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _CPTXYTheme.h; sourceTree = "<group>"; };
+		1185E6B81584596F001FC0F5 /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		1185E6B91584596F001FC0F5 /* CPTAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		1185E6BA1584596F001FC0F5 /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		1185E6BB1584596F001FC0F5 /* CPTAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		1185E6BC1584596F001FC0F5 /* CPTAxisLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		1185E6BD1584596F001FC0F5 /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		1185E6BE1584596F001FC0F5 /* CPTAxisSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		1185E6BF1584596F001FC0F5 /* CPTAxisTitle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		1185E6C01584596F001FC0F5 /* CPTBarPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		1185E6C11584596F001FC0F5 /* CPTBorderedLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		1185E6C21584596F001FC0F5 /* CPTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		1185E6C31584596F001FC0F5 /* CPTColorSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		1185E6C41584596F001FC0F5 /* CPTConstraints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		1185E6C51584596F001FC0F5 /* CPTDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		1185E6C61584596F001FC0F5 /* CPTExceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		1185E6C71584596F001FC0F5 /* CPTFill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		1185E6C81584596F001FC0F5 /* CPTGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		1185E6C91584596F001FC0F5 /* CPTGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		1185E6CA1584596F001FC0F5 /* CPTGraphHostingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		1185E6CB1584596F001FC0F5 /* CPTGridLineGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		1185E6CC1584596F001FC0F5 /* CPTGridLines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		1185E6CD1584596F001FC0F5 /* CPTImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		1185E6CE1584596F001FC0F5 /* CPTLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		1185E6CF1584596F001FC0F5 /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		1185E6D01584596F001FC0F5 /* CPTLegend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		1185E6D11584596F001FC0F5 /* CPTLegendEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		1185E6D21584596F001FC0F5 /* CPTLimitBand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		1185E6D31584596F001FC0F5 /* CPTLineCap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		1185E6D41584596F001FC0F5 /* CPTLineStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		1185E6D51584596F001FC0F5 /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		1185E6D61584596F001FC0F5 /* CPTMutableNumericData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		1185E6D71584596F001FC0F5 /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		1185E6D81584596F001FC0F5 /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		1185E6D91584596F001FC0F5 /* CPTMutableShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		1185E6DA1584596F001FC0F5 /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		1185E6DB1584596F001FC0F5 /* CPTNumericData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		1185E6DC1584596F001FC0F5 /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		1185E6DD1584596F001FC0F5 /* CPTNumericDataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		1185E6DE1584596F001FC0F5 /* CPTPathExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		1185E6DF1584596F001FC0F5 /* CPTPieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		1185E6E01584596F001FC0F5 /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		1185E6E11584596F001FC0F5 /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		1185E6E21584596F001FC0F5 /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		1185E6E31584596F001FC0F5 /* CPTPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		1185E6E41584596F001FC0F5 /* CPTPlotArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		1185E6E51584596F001FC0F5 /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		1185E6E61584596F001FC0F5 /* CPTPlotGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		1185E6E71584596F001FC0F5 /* CPTPlotRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		1185E6E81584596F001FC0F5 /* CPTPlotSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		1185E6E91584596F001FC0F5 /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		1185E6EA1584596F001FC0F5 /* CPTPlotSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		1185E6EB1584596F001FC0F5 /* CPTRangePlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		1185E6EC1584596F001FC0F5 /* CPTResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		1185E6ED1584596F001FC0F5 /* CPTScatterPlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		1185E6EE1584596F001FC0F5 /* CPTShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		1185E6EF1584596F001FC0F5 /* CPTTextLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		1185E6F01584596F001FC0F5 /* CPTTextStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		1185E6F11584596F001FC0F5 /* CPTTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		1185E6F21584596F001FC0F5 /* CPTTimeFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		1185E6F31584596F001FC0F5 /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		1185E6F41584596F001FC0F5 /* CPTUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		1185E6F51584596F001FC0F5 /* CPTXYAxis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		1185E6F61584596F001FC0F5 /* CPTXYAxisSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		1185E6F71584596F001FC0F5 /* CPTXYGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		1185E6F81584596F001FC0F5 /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		1185E6F91584596F001FC0F5 /* NSCoderExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		1185E6FA1584596F001FC0F5 /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		1185E6FB1584596F001FC0F5 /* NSNumberExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		11FE2B1A1583D125004EDF77 /* Sunride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FE2B1E1583D125004EDF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11FE2B201583D125004EDF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11FE2B221583D125004EDF77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11FE2B261583D125004EDF77 /* Sunride-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sunride-Info.plist"; sourceTree = "<group>"; };
+		11FE2B281583D125004EDF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11FE2B2A1583D125004EDF77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11FE2B2C1583D125004EDF77 /* Sunride-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sunride-Prefix.pch"; sourceTree = "<group>"; };
+		11FE2B2D1583D125004EDF77 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		11FE2B2E1583D125004EDF77 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		11FE2B311583D125004EDF77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		11FE2B331583D125004EDF77 /* SRSplashController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSplashController.h; sourceTree = "<group>"; };
+		11FE2B341583D125004EDF77 /* SRSplashController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRSplashController.m; sourceTree = "<group>"; };
+		11FE2B4A1583D58D004EDF77 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../Resources/Logo/Logo.png; sourceTree = "<group>"; };
+		11FE2B4B1583D58D004EDF77 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo@2x.png"; path = "../../Resources/Logo/Logo@2x.png"; sourceTree = "<group>"; };
+		11FE2B4E1583DCF1004EDF77 /* SideImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SideImage.png; path = ../../Resources/SideImage/SideImage.png; sourceTree = "<group>"; };
+		11FE2B4F1583DCF1004EDF77 /* SideImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SideImage@2x.png"; path = "../../Resources/SideImage/SideImage@2x.png"; sourceTree = "<group>"; };
+		11FE2B521583E4FC004EDF77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		11FE2B541583E503004EDF77 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11FE2B561583E6AE004EDF77 /* SRAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRAddressViewController.h; sourceTree = "<group>"; };
+		11FE2B571583E6AE004EDF77 /* SRAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRAddressViewController.m; sourceTree = "<group>"; };
+		11FE2B591583F209004EDF77 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		11FE2B5B1583F2E2004EDF77 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		11FE2B5D15840840004EDF77 /* SRCarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRCarsViewController.h; sourceTree = "<group>"; };
+		11FE2B5E15840841004EDF77 /* SRCarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRCarsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FE2B171583D125004EDF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1185E6FF15845A6F001FC0F5 /* QuartzCore.framework in Frameworks */,
+				11FE2B5C1583F2E2004EDF77 /* AddressBookUI.framework in Frameworks */,
+				11FE2B5A1583F209004EDF77 /* AddressBook.framework in Frameworks */,
+				11FE2B551583E503004EDF77 /* CoreLocation.framework in Frameworks */,
+				11FE2B531583E4FC004EDF77 /* MapKit.framework in Frameworks */,
+				11FE2B1F1583D125004EDF77 /* UIKit.framework in Frameworks */,
+				11FE2B211583D125004EDF77 /* Foundation.framework in Frameworks */,
+				11FE2B231583D125004EDF77 /* CoreGraphics.framework in Frameworks */,
+				1185E6FD158459DD001FC0F5 /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1185E6AB15845956001FC0F5 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				1185E6AC1584595D001FC0F5 /* CorePlot */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		1185E6AC1584595D001FC0F5 /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */,
+				1185E6AD1584596F001FC0F5 /* _CPTConstraintsFixed.h */,
+				1185E6AE1584596F001FC0F5 /* _CPTConstraintsRelative.h */,
+				1185E6AF1584596F001FC0F5 /* _CPTDarkGradientTheme.h */,
+				1185E6B01584596F001FC0F5 /* _CPTFillColor.h */,
+				1185E6B11584596F001FC0F5 /* _CPTFillGradient.h */,
+				1185E6B21584596F001FC0F5 /* _CPTFillImage.h */,
+				1185E6B31584596F001FC0F5 /* _CPTPlainBlackTheme.h */,
+				1185E6B41584596F001FC0F5 /* _CPTPlainWhiteTheme.h */,
+				1185E6B51584596F001FC0F5 /* _CPTSlateTheme.h */,
+				1185E6B61584596F001FC0F5 /* _CPTStocksTheme.h */,
+				1185E6B71584596F001FC0F5 /* _CPTXYTheme.h */,
+				1185E6B81584596F001FC0F5 /* CorePlot-CocoaTouch.h */,
+				1185E6B91584596F001FC0F5 /* CPTAnnotation.h */,
+				1185E6BA1584596F001FC0F5 /* CPTAnnotationHostLayer.h */,
+				1185E6BB1584596F001FC0F5 /* CPTAxis.h */,
+				1185E6BC1584596F001FC0F5 /* CPTAxisLabel.h */,
+				1185E6BD1584596F001FC0F5 /* CPTAxisLabelGroup.h */,
+				1185E6BE1584596F001FC0F5 /* CPTAxisSet.h */,
+				1185E6BF1584596F001FC0F5 /* CPTAxisTitle.h */,
+				1185E6C01584596F001FC0F5 /* CPTBarPlot.h */,
+				1185E6C11584596F001FC0F5 /* CPTBorderedLayer.h */,
+				1185E6C21584596F001FC0F5 /* CPTColor.h */,
+				1185E6C31584596F001FC0F5 /* CPTColorSpace.h */,
+				1185E6C41584596F001FC0F5 /* CPTConstraints.h */,
+				1185E6C51584596F001FC0F5 /* CPTDefinitions.h */,
+				1185E6C61584596F001FC0F5 /* CPTExceptions.h */,
+				1185E6C71584596F001FC0F5 /* CPTFill.h */,
+				1185E6C81584596F001FC0F5 /* CPTGradient.h */,
+				1185E6C91584596F001FC0F5 /* CPTGraph.h */,
+				1185E6CA1584596F001FC0F5 /* CPTGraphHostingView.h */,
+				1185E6CB1584596F001FC0F5 /* CPTGridLineGroup.h */,
+				1185E6CC1584596F001FC0F5 /* CPTGridLines.h */,
+				1185E6CD1584596F001FC0F5 /* CPTImage.h */,
+				1185E6CE1584596F001FC0F5 /* CPTLayer.h */,
+				1185E6CF1584596F001FC0F5 /* CPTLayerAnnotation.h */,
+				1185E6D01584596F001FC0F5 /* CPTLegend.h */,
+				1185E6D11584596F001FC0F5 /* CPTLegendEntry.h */,
+				1185E6D21584596F001FC0F5 /* CPTLimitBand.h */,
+				1185E6D31584596F001FC0F5 /* CPTLineCap.h */,
+				1185E6D41584596F001FC0F5 /* CPTLineStyle.h */,
+				1185E6D51584596F001FC0F5 /* CPTMutableLineStyle.h */,
+				1185E6D61584596F001FC0F5 /* CPTMutableNumericData.h */,
+				1185E6D71584596F001FC0F5 /* CPTMutableNumericData+TypeConversion.h */,
+				1185E6D81584596F001FC0F5 /* CPTMutablePlotRange.h */,
+				1185E6D91584596F001FC0F5 /* CPTMutableShadow.h */,
+				1185E6DA1584596F001FC0F5 /* CPTMutableTextStyle.h */,
+				1185E6DB1584596F001FC0F5 /* CPTNumericData.h */,
+				1185E6DC1584596F001FC0F5 /* CPTNumericData+TypeConversion.h */,
+				1185E6DD1584596F001FC0F5 /* CPTNumericDataType.h */,
+				1185E6DE1584596F001FC0F5 /* CPTPathExtensions.h */,
+				1185E6DF1584596F001FC0F5 /* CPTPieChart.h */,
+				1185E6E01584596F001FC0F5 /* CPTPlatformSpecificCategories.h */,
+				1185E6E11584596F001FC0F5 /* CPTPlatformSpecificDefines.h */,
+				1185E6E21584596F001FC0F5 /* CPTPlatformSpecificFunctions.h */,
+				1185E6E31584596F001FC0F5 /* CPTPlot.h */,
+				1185E6E41584596F001FC0F5 /* CPTPlotArea.h */,
+				1185E6E51584596F001FC0F5 /* CPTPlotAreaFrame.h */,
+				1185E6E61584596F001FC0F5 /* CPTPlotGroup.h */,
+				1185E6E71584596F001FC0F5 /* CPTPlotRange.h */,
+				1185E6E81584596F001FC0F5 /* CPTPlotSpace.h */,
+				1185E6E91584596F001FC0F5 /* CPTPlotSpaceAnnotation.h */,
+				1185E6EA1584596F001FC0F5 /* CPTPlotSymbol.h */,
+				1185E6EB1584596F001FC0F5 /* CPTRangePlot.h */,
+				1185E6EC1584596F001FC0F5 /* CPTResponder.h */,
+				1185E6ED1584596F001FC0F5 /* CPTScatterPlot.h */,
+				1185E6EE1584596F001FC0F5 /* CPTShadow.h */,
+				1185E6EF1584596F001FC0F5 /* CPTTextLayer.h */,
+				1185E6F01584596F001FC0F5 /* CPTTextStyle.h */,
+				1185E6F11584596F001FC0F5 /* CPTTheme.h */,
+				1185E6F21584596F001FC0F5 /* CPTTimeFormatter.h */,
+				1185E6F31584596F001FC0F5 /* CPTTradingRangePlot.h */,
+				1185E6F41584596F001FC0F5 /* CPTUtilities.h */,
+				1185E6F51584596F001FC0F5 /* CPTXYAxis.h */,
+				1185E6F61584596F001FC0F5 /* CPTXYAxisSet.h */,
+				1185E6F71584596F001FC0F5 /* CPTXYGraph.h */,
+				1185E6F81584596F001FC0F5 /* CPTXYPlotSpace.h */,
+				1185E6F91584596F001FC0F5 /* NSCoderExtensions.h */,
+				1185E6FA1584596F001FC0F5 /* NSDecimalNumberExtensions.h */,
+				1185E6FB1584596F001FC0F5 /* NSNumberExtensions.h */,
+			);
+			name = CorePlot;
+			sourceTree = "<group>";
+		};
+		11FE2B0F1583D124004EDF77 = {
+			isa = PBXGroup;
+			children = (
+				11FE2B241583D125004EDF77 /* Sunride */,
+				11FE2B1D1583D125004EDF77 /* Frameworks */,
+				11FE2B1B1583D125004EDF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FE2B1B1583D125004EDF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FE2B1A1583D125004EDF77 /* Sunride.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FE2B1D1583D125004EDF77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */,
+				11FE2B5B1583F2E2004EDF77 /* AddressBookUI.framework */,
+				11FE2B591583F209004EDF77 /* AddressBook.framework */,
+				11FE2B541583E503004EDF77 /* CoreLocation.framework */,
+				11FE2B521583E4FC004EDF77 /* MapKit.framework */,
+				11FE2B1E1583D125004EDF77 /* UIKit.framework */,
+				11FE2B201583D125004EDF77 /* Foundation.framework */,
+				11FE2B221583D125004EDF77 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FE2B241583D125004EDF77 /* Sunride */ = {
+			isa = PBXGroup;
+			children = (
+				1185E6AB15845956001FC0F5 /* External */,
+				11FE2B2D1583D125004EDF77 /* SRAppDelegate.h */,
+				11FE2B2E1583D125004EDF77 /* SRAppDelegate.m */,
+				11FE2B301583D125004EDF77 /* MainStoryboard.storyboard */,
+				11FE2B331583D125004EDF77 /* SRSplashController.h */,
+				11FE2B341583D125004EDF77 /* SRSplashController.m */,
+				11FE2B561583E6AE004EDF77 /* SRAddressViewController.h */,
+				11FE2B571583E6AE004EDF77 /* SRAddressViewController.m */,
+				11FE2B5D15840840004EDF77 /* SRCarsViewController.h */,
+				11FE2B5E15840841004EDF77 /* SRCarsViewController.m */,
+				11FE2B3B1583D56C004EDF77 /* Resources */,
+				11FE2B251583D125004EDF77 /* Supporting Files */,
+				1185E68015840F16001FC0F5 /* SRMileageController.h */,
+				1185E68115840F16001FC0F5 /* SRMileageController.m */,
+				1185E69415842A1D001FC0F5 /* SRGasViewController.h */,
+				1185E69515842A1D001FC0F5 /* SRGasViewController.m */,
+			);
+			path = Sunride;
+			sourceTree = "<group>";
+		};
+		11FE2B251583D125004EDF77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FE2B261583D125004EDF77 /* Sunride-Info.plist */,
+				11FE2B271583D125004EDF77 /* InfoPlist.strings */,
+				11FE2B2A1583D125004EDF77 /* main.m */,
+				11FE2B2C1583D125004EDF77 /* Sunride-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11FE2B3B1583D56C004EDF77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1185E69B15844D3B001FC0F5 /* Ford_Focus.png */,
+				1185E69C15844D3B001FC0F5 /* Nissan_Leaf.png */,
+				1185E69D15844D3B001FC0F5 /* Chevy_Volt.png */,
+				1185E69E15844D3B001FC0F5 /* Tesla_Model_S.png */,
+				1185E69F15844D3B001FC0F5 /* Tesla_Roadster.png */,
+				1185E6A015844D3B001FC0F5 /* Wheego_LiFe.png */,
+				1185E6A115844D3B001FC0F5 /* Mitsubishi_i.png */,
+				1185E6A215844D3B001FC0F5 /* Toyota_RAV4_EV.png */,
+				1185E69715842B76001FC0F5 /* Gas.png */,
+				1185E69815842B76001FC0F5 /* Gas@2x.png */,
+				1185E69015841BDC001FC0F5 /* Back.png */,
+				1185E69115841BDC001FC0F5 /* Back@2x.png */,
+				1185E68C158410DC001FC0F5 /* driving_heavy.png */,
+				1185E68D158410DC001FC0F5 /* driving_heavy@2x.png */,
+				1185E688158410D5001FC0F5 /* driving_light.png */,
+				1185E689158410D5001FC0F5 /* driving_light@2x.png */,
+				1185E684158410CE001FC0F5 /* driving_moderate.png */,
+				1185E685158410CE001FC0F5 /* driving_moderate@2x.png */,
+				11FE2B4E1583DCF1004EDF77 /* SideImage.png */,
+				11FE2B4F1583DCF1004EDF77 /* SideImage@2x.png */,
+				11FE2B4A1583D58D004EDF77 /* Logo.png */,
+				11FE2B4B1583D58D004EDF77 /* Logo@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FE2B191583D125004EDF77 /* Sunride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FE2B381583D125004EDF77 /* Build configuration list for PBXNativeTarget "Sunride" */;
+			buildPhases = (
+				11FE2B161583D125004EDF77 /* Sources */,
+				11FE2B171583D125004EDF77 /* Frameworks */,
+				11FE2B181583D125004EDF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunride;
+			productName = Sunride;
+			productReference = 11FE2B1A1583D125004EDF77 /* Sunride.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FE2B111583D124004EDF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = View.io;
+			};
+			buildConfigurationList = 11FE2B141583D124004EDF77 /* Build configuration list for PBXProject "Sunride" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11FE2B0F1583D124004EDF77;
+			productRefGroup = 11FE2B1B1583D125004EDF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FE2B191583D125004EDF77 /* Sunride */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FE2B181583D125004EDF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE2B291583D125004EDF77 /* InfoPlist.strings in Resources */,
+				11FE2B321583D125004EDF77 /* MainStoryboard.storyboard in Resources */,
+				11FE2B4C1583D58D004EDF77 /* Logo.png in Resources */,
+				11FE2B4D1583D58D004EDF77 /* Logo@2x.png in Resources */,
+				11FE2B501583DCF1004EDF77 /* SideImage.png in Resources */,
+				11FE2B511583DCF1004EDF77 /* SideImage@2x.png in Resources */,
+				1185E686158410CE001FC0F5 /* driving_moderate.png in Resources */,
+				1185E687158410CE001FC0F5 /* driving_moderate@2x.png in Resources */,
+				1185E68A158410D5001FC0F5 /* driving_light.png in Resources */,
+				1185E68B158410D5001FC0F5 /* driving_light@2x.png in Resources */,
+				1185E68E158410DC001FC0F5 /* driving_heavy.png in Resources */,
+				1185E68F158410DC001FC0F5 /* driving_heavy@2x.png in Resources */,
+				1185E69215841BDC001FC0F5 /* Back.png in Resources */,
+				1185E69315841BDC001FC0F5 /* Back@2x.png in Resources */,
+				1185E69915842B76001FC0F5 /* Gas.png in Resources */,
+				1185E69A15842B76001FC0F5 /* Gas@2x.png in Resources */,
+				1185E6A315844D3B001FC0F5 /* Ford_Focus.png in Resources */,
+				1185E6A415844D3B001FC0F5 /* Nissan_Leaf.png in Resources */,
+				1185E6A515844D3B001FC0F5 /* Chevy_Volt.png in Resources */,
+				1185E6A615844D3B001FC0F5 /* Tesla_Model_S.png in Resources */,
+				1185E6A715844D3B001FC0F5 /* Tesla_Roadster.png in Resources */,
+				1185E6A815844D3B001FC0F5 /* Wheego_LiFe.png in Resources */,
+				1185E6A915844D3B001FC0F5 /* Mitsubishi_i.png in Resources */,
+				1185E6AA15844D3B001FC0F5 /* Toyota_RAV4_EV.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FE2B161583D125004EDF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE2B2B1583D125004EDF77 /* main.m in Sources */,
+				11FE2B2F1583D125004EDF77 /* SRAppDelegate.m in Sources */,
+				11FE2B351583D125004EDF77 /* SRSplashController.m in Sources */,
+				11FE2B581583E6AE004EDF77 /* SRAddressViewController.m in Sources */,
+				11FE2B5F15840841004EDF77 /* SRCarsViewController.m in Sources */,
+				1185E68215840F16001FC0F5 /* SRMileageController.m in Sources */,
+				1185E69615842A1D001FC0F5 /* SRGasViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11FE2B271583D125004EDF77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE2B281583D125004EDF77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11FE2B301583D125004EDF77 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE2B311583D125004EDF77 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FE2B361583D125004EDF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		11FE2B371583D125004EDF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FE2B391583D125004EDF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunride/Sunride-Prefix.pch";
+				INFOPLIST_FILE = "Sunride/Sunride-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Sunride\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11FE2B3A1583D125004EDF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sunride/Sunride-Prefix.pch";
+				INFOPLIST_FILE = "Sunride/Sunride-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Sunride\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FE2B141583D124004EDF77 /* Build configuration list for PBXProject "Sunride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE2B361583D125004EDF77 /* Debug */,
+				11FE2B371583D125004EDF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FE2B381583D125004EDF77 /* Build configuration list for PBXNativeTarget "Sunride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE2B391583D125004EDF77 /* Debug */,
+				11FE2B3A1583D125004EDF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FE2B111583D124004EDF77 /* Project object */;
+}

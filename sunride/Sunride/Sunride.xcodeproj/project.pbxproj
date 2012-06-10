@@ -29,6 +29,7 @@
 		1185E6AA15844D3B001FC0F5 /* Toyota_RAV4_EV.png in Resources */ = {isa = PBXBuildFile; fileRef = 1185E6A215844D3B001FC0F5 /* Toyota_RAV4_EV.png */; };
 		1185E6FD158459DD001FC0F5 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */; };
 		1185E6FF15845A6F001FC0F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */; };
+		1185E71215846670001FC0F5 /* SRReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185E71115846670001FC0F5 /* SRReportViewController.m */; };
 		11FE2B1F1583D125004EDF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B1E1583D125004EDF77 /* UIKit.framework */; };
 		11FE2B211583D125004EDF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B201583D125004EDF77 /* Foundation.framework */; };
 		11FE2B231583D125004EDF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B221583D125004EDF77 /* CoreGraphics.framework */; };
@@ -153,6 +154,8 @@
 		1185E6FB1584596F001FC0F5 /* NSNumberExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
 		1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
 		1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1185E7101584666F001FC0F5 /* SRReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRReportViewController.h; sourceTree = "<group>"; };
+		1185E71115846670001FC0F5 /* SRReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRReportViewController.m; sourceTree = "<group>"; };
 		11FE2B1A1583D125004EDF77 /* Sunride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE2B1E1583D125004EDF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11FE2B201583D125004EDF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -330,7 +333,6 @@
 		11FE2B241583D125004EDF77 /* Sunride */ = {
 			isa = PBXGroup;
 			children = (
-				1185E6AB15845956001FC0F5 /* External */,
 				11FE2B2D1583D125004EDF77 /* SRAppDelegate.h */,
 				11FE2B2E1583D125004EDF77 /* SRAppDelegate.m */,
 				11FE2B301583D125004EDF77 /* MainStoryboard.storyboard */,
@@ -346,6 +348,8 @@
 				1185E68115840F16001FC0F5 /* SRMileageController.m */,
 				1185E69415842A1D001FC0F5 /* SRGasViewController.h */,
 				1185E69515842A1D001FC0F5 /* SRGasViewController.m */,
+				1185E7101584666F001FC0F5 /* SRReportViewController.h */,
+				1185E71115846670001FC0F5 /* SRReportViewController.m */,
 			);
 			path = Sunride;
 			sourceTree = "<group>";
@@ -353,6 +357,7 @@
 		11FE2B251583D125004EDF77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1185E6AB15845956001FC0F5 /* External */,
 				11FE2B261583D125004EDF77 /* Sunride-Info.plist */,
 				11FE2B271583D125004EDF77 /* InfoPlist.strings */,
 				11FE2B2A1583D125004EDF77 /* main.m */,
@@ -483,6 +488,7 @@
 				11FE2B5F15840841004EDF77 /* SRCarsViewController.m in Sources */,
 				1185E68215840F16001FC0F5 /* SRMileageController.m in Sources */,
 				1185E69615842A1D001FC0F5 /* SRGasViewController.m in Sources */,
+				1185E71215846670001FC0F5 /* SRReportViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

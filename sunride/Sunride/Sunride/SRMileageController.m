@@ -65,12 +65,11 @@
 
 - (IBAction)doMileageSelection:(id)sender {
     if (sender == _lightButton) {
-        _selectedMilegage = @"10000";
-    }
-    else if (sender == _moderateButton) {
-        _selectedMilegage = @"20000";
+        _selectedMilegage = @"7500";
+    } else if (sender == _moderateButton) {
+        _selectedMilegage = @"15000";
     } else {
-        _selectedMilegage = @"40000";
+        _selectedMilegage = @"20000";
     }
     [self performSegueWithIdentifier:@"ShowGas" sender:self];
 }

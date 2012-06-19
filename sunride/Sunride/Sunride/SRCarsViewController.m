@@ -7,6 +7,8 @@
 //
 
 #import "SRCarsViewController.h"
+#import "SRReportViewController.h"
+
 
 @interface SRCarsViewController ()
 
@@ -160,6 +162,24 @@
     [cell.contentView addSubview:contentView];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SRReportViewController *reportController = [[SRReportViewController alloc] init];
+    reportController.mpg = _mpg;
+    reportController.mileage = _mileage;
+    reportController.zipcode = _zipcode;
+    
+    
+    NSDictionary *carData = [_cars objectAtIndex:indexPath.row];
+
+    reportController.carID = [carData objectForKey:@"id"];
+    reportController.carData = carData;
+    
+    __weak SRCarsViewController *weakself = self;
+    [self presentViewController:reportController animated:YES completion:^{
+        [weakself.tableView deselectRowAtIndexPath:weakself.tableView.indexPathForSelectedRow animated:NO]; 
+    }];
 }
 
 - (IBAction)doBackButton:(id)sender {

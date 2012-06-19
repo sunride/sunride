@@ -30,6 +30,9 @@
 		1185E6FD158459DD001FC0F5 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FC158459DD001FC0F5 /* libCorePlot-CocoaTouch.a */; };
 		1185E6FF15845A6F001FC0F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */; };
 		1185E71215846670001FC0F5 /* SRReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185E71115846670001FC0F5 /* SRReportViewController.m */; };
+		1185E7181584E7D4001FC0F5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1185E7171584E7D4001FC0F5 /* MessageUI.framework */; };
+		1185E71C1584F39A001FC0F5 /* SRPageItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1185E71B1584F399001FC0F5 /* SRPageItemViewController.m */; };
+		1185E7501585325F001FC0F5 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 1185E74F1585325F001FC0F5 /* sample.json */; };
 		11FE2B1F1583D125004EDF77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B1E1583D125004EDF77 /* UIKit.framework */; };
 		11FE2B211583D125004EDF77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B201583D125004EDF77 /* Foundation.framework */; };
 		11FE2B231583D125004EDF77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FE2B221583D125004EDF77 /* CoreGraphics.framework */; };
@@ -156,6 +159,10 @@
 		1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1185E7101584666F001FC0F5 /* SRReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRReportViewController.h; sourceTree = "<group>"; };
 		1185E71115846670001FC0F5 /* SRReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRReportViewController.m; sourceTree = "<group>"; };
+		1185E7171584E7D4001FC0F5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1185E71A1584F399001FC0F5 /* SRPageItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRPageItemViewController.h; sourceTree = "<group>"; };
+		1185E71B1584F399001FC0F5 /* SRPageItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRPageItemViewController.m; sourceTree = "<group>"; };
+		1185E74F1585325F001FC0F5 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		11FE2B1A1583D125004EDF77 /* Sunride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FE2B1E1583D125004EDF77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11FE2B201583D125004EDF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -188,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1185E7181584E7D4001FC0F5 /* MessageUI.framework in Frameworks */,
 				1185E6FF15845A6F001FC0F5 /* QuartzCore.framework in Frameworks */,
 				11FE2B5C1583F2E2004EDF77 /* AddressBookUI.framework in Frameworks */,
 				11FE2B5A1583F209004EDF77 /* AddressBook.framework in Frameworks */,
@@ -318,6 +326,7 @@
 		11FE2B1D1583D125004EDF77 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1185E7171584E7D4001FC0F5 /* MessageUI.framework */,
 				1185E6FE15845A6F001FC0F5 /* QuartzCore.framework */,
 				11FE2B5B1583F2E2004EDF77 /* AddressBookUI.framework */,
 				11FE2B591583F209004EDF77 /* AddressBook.framework */,
@@ -350,6 +359,8 @@
 				1185E69515842A1D001FC0F5 /* SRGasViewController.m */,
 				1185E7101584666F001FC0F5 /* SRReportViewController.h */,
 				1185E71115846670001FC0F5 /* SRReportViewController.m */,
+				1185E71A1584F399001FC0F5 /* SRPageItemViewController.h */,
+				1185E71B1584F399001FC0F5 /* SRPageItemViewController.m */,
 			);
 			path = Sunride;
 			sourceTree = "<group>";
@@ -369,6 +380,7 @@
 		11FE2B3B1583D56C004EDF77 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1185E74F1585325F001FC0F5 /* sample.json */,
 				1185E69B15844D3B001FC0F5 /* Ford_Focus.png */,
 				1185E69C15844D3B001FC0F5 /* Nissan_Leaf.png */,
 				1185E69D15844D3B001FC0F5 /* Chevy_Volt.png */,
@@ -471,6 +483,7 @@
 				1185E6A815844D3B001FC0F5 /* Wheego_LiFe.png in Resources */,
 				1185E6A915844D3B001FC0F5 /* Mitsubishi_i.png in Resources */,
 				1185E6AA15844D3B001FC0F5 /* Toyota_RAV4_EV.png in Resources */,
+				1185E7501585325F001FC0F5 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +502,7 @@
 				1185E68215840F16001FC0F5 /* SRMileageController.m in Sources */,
 				1185E69615842A1D001FC0F5 /* SRGasViewController.m in Sources */,
 				1185E71215846670001FC0F5 /* SRReportViewController.m in Sources */,
+				1185E71C1584F39A001FC0F5 /* SRPageItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

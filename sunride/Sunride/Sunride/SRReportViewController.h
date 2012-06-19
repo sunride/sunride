@@ -7,14 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CorePlot-CocoaTouch.h"
 
-@interface SRReportViewController : UIViewController
+@interface SRReportViewController : UIViewController <CPTBarPlotDataSource,CPTBarPlotDelegate, UIScrollViewDelegate, UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
 @property (nonatomic, copy) NSString *mileage;
 @property (nonatomic, copy) NSString *zipcode;
-@property (nonatomic, copy) NSString *mph;
+@property (nonatomic, copy) NSString *mpg;
 @property (nonatomic, copy) NSString *carID;
-
+@property (nonatomic, copy) NSDictionary *carData;
 
 
 
